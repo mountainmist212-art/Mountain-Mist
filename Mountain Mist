@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mountain Mist - Pahado Ka Thanda Pani</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #e6f7ff;
+        color: #003366;
+    }
+    header {
+        background-color: #0099cc;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    header img {
+        max-width: 120px;
+        border-radius: 10px;
+    }
+    nav {
+        background: #006699;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    section {
+        padding: 20px;
+        text-align: center;
+    }
+    form {
+        max-width: 400px;
+        margin: auto;
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        background: #0099cc;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    footer {
+        background: #003366;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Mountain Mist Logo">
+    <h1>Mountain Mist</h1>
+    <p>Pahado Ka Thanda Pani</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to Mountain Mist</h2>
+    <p>Fresh natural spring water, straight from the mountains of Bharmaur.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Mountain Mist provides 100% pure, natural spring water bottled at the source. Experience the refreshing taste of the Himalayas in every sip.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="mailto:mountainmist212@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p>Or call us at: <strong>7807980563</strong></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Mountain Mist. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
